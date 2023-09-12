@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=MySolutions
+comment0.text=\r\n\ AP\ CS\ A\ Problem\ Set\ 1.1\r\n\r\n\ Cindy\ Weng\r\n\ Sept.\ 12\r\n
+comment1.params=
+comment1.target=void\ celsiusToFahrenheit()
+comment2.params=
+comment2.target=void\ elaspedTime()
+comment3.params=
+comment3.target=void\ secondsToHMS()
+numComments=4
