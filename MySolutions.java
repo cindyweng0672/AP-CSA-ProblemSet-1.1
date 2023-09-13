@@ -7,15 +7,15 @@
 public class MySolutions
 {
     public void celsiusToFahrenheit(){
-        double c=37.0;
+        double c=30.0;
         double f=c*9/5+32;
-        System.out.print(c+"°C"+" = "+f+"°F");
+        System.out.println(c+"°C"+" = "+f+"°F");
     }
     
     public void elaspedTime(){
-        int currentH=10;
-        int currentM=45;
-        int currentS=12;
+        int currentH=12;
+        int currentM=0;
+        int currentS=0;
         
         int totalS=86400;
         int sPassed=60*60*currentH+60*currentM+currentS;
@@ -26,7 +26,7 @@ public class MySolutions
         System.out.print("the current time is "+currentH+":"+currentM+":"+currentS+". ");
         System.out.println("It has been "+sPassed+" seconds since the day began.");
         System.out.println("There are "+sLeft+" seconds left in the day.");
-        System.out.print("The day is "+percentagePassed+" done");
+        System.out.println("The day is "+percentagePassed+"% done");
     }
     
     public void secondsToHMS(){
@@ -35,6 +35,6 @@ public class MySolutions
         int m=(totalS-h*60*60)/60;
         int s=totalS-h*60*60-m*60;
         
-        System.out.print(totalS+" seconds = "+h+ "hours, "+m+" minutes, "+s+" seconds.");
+        System.out.println(totalS+" seconds = "+h+ " hours, "+m+" minutes, and "+s+" seconds.");
     }
 }
